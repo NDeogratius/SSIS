@@ -53,8 +53,9 @@ This script is a C# code snippet intended for use in an SSIS (SQL Server Integra
 
 2. **Add a Script Task**
 This task is added to the control flow and not the data flow. Add the above variables as read only variables to the script task editor as show below
+![alt text](https://github.com/NDeogratius/SSIS/blob/main/Dynamic%20Column%20Headers/edit-script.png)
 
-3. **Edit the script**
+4. **Edit the script**
 Click on `Edit Script` and add the following `csharp` script
 
 ### Main Method
